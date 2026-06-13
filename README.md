@@ -23,5 +23,6 @@ This repository contains:
 ## Author
 
 **Abderrahmane Afrit**
+
 Digital Humanities and Digital Knowledge (DHDK)
 University of Bologna
