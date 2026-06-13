@@ -1,0 +1,141 @@
+@prefix ex: <https://johnmaus.com/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <https://schema.org/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+ex:johnMaus a foaf:Person ;
+  foaf:name "John Maus" ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q5980315> ;
+  owl:sameAs <https://en.wikipedia.org/wiki/John_Maus> .
+
+ex:arielPink a foaf:Person ;
+  foaf:name "Ariel Pink" ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q47839> ;
+  owl:sameAs <https://en.wikipedia.org/wiki/Ariel_Pink> .
+
+ex:pandaBear a foaf:Person ;
+  foaf:name "Panda Bear" ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q1386857> ;
+  owl:sameAs <https://en.wikipedia.org/wiki/Panda_Bear_(musician)> .
+
+ex:alainBadiou a foaf:Person ;
+  foaf:name "Alain Badiou" ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q29153> ;
+  owl:sameAs <https://en.wikipedia.org/wiki/Alain_Badiou> .
+
+ex:calArts a foaf:Organization ;
+  foaf:name "California Institute of the Arts" ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q1026924> .
+
+ex:egs a foaf:Organization ;
+  foaf:name "European Graduate School" ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q1374137> .
+
+ex:universityHawaii a foaf:Organization ;
+  foaf:name "University of Hawaiʻi" ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q687697> .
+
+ex:hauntedGraffiti a foaf:Organization ;
+  foaf:name "Ariel Pink's Haunted Graffiti" .
+
+ex:ribbonMusic a foaf:Organization ;
+  foaf:name "Ribbon Music" ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q7321144> .
+
+ex:upsetTheRhythm a foaf:Organization ;
+  foaf:name "Upset the Rhythm" .
+
+ex:young a foaf:Organization ;
+  foaf:name "Young" .
+
+ex:austinMinnesota a schema:Place ;
+  schema:name "Austin, Minnesota" ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q486822> .
+
+ex:losAngeles a schema:Place ;
+  schema:name "Los Angeles" ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q65> .
+
+ex:sourcewikipedia a schema:MusicAlbum ;
+  schema:name "John Maus" .
+
+ex:sourcewikidata a schema:MusicAlbum ;
+  schema:name "John Maus Wikidata Entity" .
+
+ex:sourcealbum a schema:MusicAlbum ;
+  schema:name "We Must Become the Pitiless Censors of Ourselves" .
+
+ex:songs a schema:MusicAlbum ;
+  schema:name "Songs" ;
+  dcterms:creator ex:johnMaus ;
+  schema:datePublished "2006" .
+
+ex:loveIsReal a schema:MusicAlbum ;
+  schema:name "Love Is Real" ;
+  dcterms:creator ex:johnMaus ;
+  schema:datePublished "2007" .
+
+ex:pitilessCensors a schema:MusicAlbum ;
+  schema:name "We Must Become the Pitiless Censors of Ourselves" ;
+  dcterms:creator ex:johnMaus ;
+  schema:datePublished "2011" ;
+  owl:sameAs <https://www.wikidata.org/wiki/Q7977682> .
+
+ex:rarities a schema:MusicAlbum ;
+  schema:name "A Collection of Rarities and Previously Unreleased Material" ;
+  dcterms:creator ex:johnMaus ;
+  schema:datePublished "2012" .
+
+ex:screenMemories a schema:MusicAlbum ;
+  schema:name "Screen Memories" ;
+  dcterms:creator ex:johnMaus ;
+  schema:datePublished "2017" .
+
+ex:addendum a schema:MusicAlbum ;
+  schema:name "Addendum" ;
+  dcterms:creator ex:johnMaus ;
+  schema:datePublished "2018" .
+
+ex:laterThanYouThink a schema:MusicAlbum ;
+  schema:name "Later Than You Think" ;
+  dcterms:creator ex:johnMaus ;
+  schema:datePublished "2025" .
+
+ex:fifteenTheses a dcterms:BibliographicResource ;
+  schema:name "Fifteen Theses on Contemporary Art" ;
+  dcterms:creator ex:alainBadiou .
+
+ex:musician a skos:Concept ; skos:prefLabel "musician" .
+ex:singer a skos:Concept ; skos:prefLabel "singer" .
+ex:songwriter a skos:Concept ; skos:prefLabel "songwriter" .
+ex:composer a skos:Concept ; skos:prefLabel "composer" .
+ex:academic a skos:Concept ; skos:prefLabel "academic" .
+ex:synthPop a skos:Concept ; skos:prefLabel "synth-pop" .
+ex:hypnagogicPop a skos:Concept ; skos:prefLabel "hypnagogic pop" .
+ex:postPunk a skos:Concept ; skos:prefLabel "post-punk" .
+ex:experimentalPop a skos:Concept ; skos:prefLabel "experimental pop" .
+ex:loFi a skos:Concept ; skos:prefLabel "lo-fi" .
+ex:politicalPhilosophy a skos:Concept ; skos:prefLabel "political philosophy" .
+ex:johnMaus schema:birthPlace ex:austinMinnesota .
+ex:johnMaus schema:alumniOf ex:calArts .
+ex:johnMaus schema:alumniOf ex:egs .
+ex:johnMaus schema:alumniOf ex:universityHawaii .
+ex:johnMaus dcterms:relation ex:arielPink .
+ex:johnMaus schema:performer ex:pandaBear .
+ex:johnMaus schema:memberOf ex:hauntedGraffiti .
+ex:johnMaus dcterms:creator ex:songs .
+ex:johnMaus dcterms:creator ex:loveIsReal .
+ex:johnMaus dcterms:creator ex:pitilessCensors .
+ex:johnMaus dcterms:creator ex:rarities .
+ex:johnMaus dcterms:creator ex:screenMemories .
+ex:johnMaus dcterms:creator ex:addendum .
+ex:johnMaus dcterms:creator ex:laterThanYouThink .
+ex:pitilessCensors dcterms:publisher ex:ribbonMusic .
+ex:pitilessCensors dcterms:source ex:fifteenTheses .
+ex:alainBadiou dcterms:creator ex:fifteenTheses .
+ex:johnMaus schema:genre ex:synthPop .
+ex:johnMaus schema:genre ex:hypnagogicPop .
+ex:johnMaus schema:genre ex:postPunk .
