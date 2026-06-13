@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>John Maus — TEI Text Encoding</title>
+        <author>Abderrahmane Afrit</author>
+        <respStmt>
+          <resp>Text encoding and linked-data modelling</resp>
+          <name>Abderrahmane Afrit</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Information Science and Cultural Heritage project</publisher>
+        <pubPlace>Bologna</pubPlace>
+        <date when="2026-05-18">18 May 2026</date>
+        <availability><p>Academic project file.</p></availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>This TEI document was produced by transforming a custom XML biography of John Maus into TEI-compliant markup.</p>
+        <listBibl>
+          <bibl xml:id="source-wikipedia"><title>John Maus</title><author>Wikipedia contributors</author><ptr target="https://en.wikipedia.org/wiki/John_Maus"/></bibl>
+          <bibl xml:id="source-wikidata"><title>John Maus Wikidata Entity</title><ptr target="https://www.wikidata.org/wiki/Q5980315"/></bibl>
+          <bibl xml:id="source-album"><title>We Must Become the Pitiless Censors of Ourselves</title><ptr target="https://en.wikipedia.org/wiki/We_Must_Become_the_Pitiless_Censors_of_Ourselves"/></bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The encoding identifies persons, places, organizations, works, concepts and intertextual references. Standoff lists are used so that the same entities can be reused for HTML transformation and RDF generation.</p>
+      </projectDesc>
+    </encodingDesc>
+    <profileDesc><langUsage><language ident="en">English</language></langUsage></profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="biography" n="1">
+        <head>Identity</head>
+        <p><persName ref="#johnMaus">John Maus</persName> was born on <date when="1980-02-23">23 February 1980</date> in <placeName ref="#austinMinnesota">Austin, Minnesota</placeName>. He is an American <term ref="#musician">musician</term>, <term ref="#singer">singer</term>, <term ref="#songwriter">songwriter</term>, <term ref="#composer">composer</term> and <term ref="#academic">academic</term>.</p>
+      </div>
+      <div type="music" n="2">
+        <head>Genres</head>
+        <p>His music is associated with <term ref="#synthPop">synth-pop</term>, <term ref="#hypnagogicPop">hypnagogic pop</term>, <term ref="#postPunk">post-punk</term>, <term ref="#experimentalPop">experimental pop</term> and <term ref="#loFi">lo-fi</term>. These genres are encoded as concepts because they describe both musical style and cultural classification.</p>
+      </div>
+      <div type="education" n="3">
+        <head>Education</head>
+        <p><persName ref="#johnMaus">John Maus</persName> studied at <orgName ref="#calArts">California Institute of the Arts</orgName>, <orgName ref="#egs">European Graduate School</orgName> and <orgName ref="#universityHawaii">University of Hawaiʻi</orgName>. At <orgName ref="#calArts">California Institute of the Arts</orgName>, he met <persName ref="#arielPink">Ariel Pink</persName>.</p>
+      </div>
+      <div type="network" n="4">
+        <head>Related People</head>
+        <p>The project records <persName ref="#arielPink">Ariel Pink</persName> as a collaborator, <persName ref="#pandaBear">Panda Bear</persName> as a performance connection, and <persName ref="#alainBadiou">Alain Badiou</persName> as a philosophical reference.</p>
+      </div>
+      <div type="network" n="5">
+        <head>Organizations</head>
+        <p><persName ref="#johnMaus">John Maus</persName> is connected to <orgName ref="#hauntedGraffiti">Ariel Pink's Haunted Graffiti</orgName>, <orgName ref="#ribbonMusic">Ribbon Music</orgName>, <orgName ref="#upsetTheRhythm">Upset the Rhythm</orgName> and <orgName ref="#young">Young</orgName>.</p>
+      </div>
+      <div type="discography" n="6">
+        <head>Albums</head>
+        <p>Important albums include <title ref="#songs">Songs</title>, <title ref="#loveIsReal">Love Is Real</title>, <title ref="#pitilessCensors">We Must Become the Pitiless Censors of Ourselves</title>, <title ref="#rarities">A Collection of Rarities and Previously Unreleased Material</title>, <title ref="#screenMemories">Screen Memories</title>, <title ref="#addendum">Addendum</title> and <title ref="#laterThanYouThink">Later Than You Think</title>.</p>
+      </div>
+      <div type="intertextuality" n="7">
+        <head>Textual Phenomenon</head>
+        <p>The album title <quote source="#fifteenTheses">We Must Become the Pitiless Censors of Ourselves</quote> is encoded as a quotation and citation because it refers to <title ref="#fifteenTheses">Fifteen Theses on Contemporary Art</title> by <persName ref="#alainBadiou">Alain Badiou</persName>.</p>
+      </div>
+    </body>
+  </text>
+  <standOff>
+    <listPerson>
+      <person xml:id="johnMaus"><persName>John Maus</persName><birth when="1980-02-23"><placeName ref="#austinMinnesota">Austin, Minnesota</placeName></birth><idno type="wikidata">https://www.wikidata.org/wiki/Q5980315</idno><idno type="wikipedia">https://en.wikipedia.org/wiki/John_Maus</idno></person>
+      <person xml:id="arielPink"><persName>Ariel Pink</persName><idno type="wikidata">https://www.wikidata.org/wiki/Q47839</idno><idno type="wikipedia">https://en.wikipedia.org/wiki/Ariel_Pink</idno></person>
+      <person xml:id="pandaBear"><persName>Panda Bear</persName><idno type="wikidata">https://www.wikidata.org/wiki/Q1386857</idno><idno type="wikipedia">https://en.wikipedia.org/wiki/Panda_Bear_(musician)</idno></person>
+      <person xml:id="alainBadiou"><persName>Alain Badiou</persName><idno type="wikidata">https://www.wikidata.org/wiki/Q29153</idno><idno type="wikipedia">https://en.wikipedia.org/wiki/Alain_Badiou</idno></person>
+    </listPerson>
+    <listOrg>
+      <org xml:id="calArts"><orgName>California Institute of the Arts</orgName><idno type="wikidata">https://www.wikidata.org/wiki/Q1026924</idno></org>
+      <org xml:id="egs"><orgName>European Graduate School</orgName><idno type="wikidata">https://www.wikidata.org/wiki/Q1374137</idno></org>
+      <org xml:id="universityHawaii"><orgName>University of Hawaiʻi</orgName><idno type="wikidata">https://www.wikidata.org/wiki/Q687697</idno></org>
+      <org xml:id="hauntedGraffiti"><orgName>Ariel Pink's Haunted Graffiti</orgName></org>
+      <org xml:id="ribbonMusic"><orgName>Ribbon Music</orgName><idno type="wikidata">https://www.wikidata.org/wiki/Q7321144</idno></org>
+      <org xml:id="upsetTheRhythm"><orgName>Upset the Rhythm</orgName></org>
+      <org xml:id="young"><orgName>Young</orgName></org>
+    </listOrg>
+    <listPlace>
+      <place xml:id="austinMinnesota"><placeName>Austin, Minnesota</placeName><idno type="wikidata">https://www.wikidata.org/wiki/Q486822</idno></place>
+      <place xml:id="losAngeles"><placeName>Los Angeles</placeName><idno type="wikidata">https://www.wikidata.org/wiki/Q65</idno></place>
+    </listPlace>
+    <listBibl>
+      <bibl xml:id="songs"><title>Songs</title><author ref="#johnMaus">John Maus</author><date when="2006">2006</date></bibl>
+      <bibl xml:id="loveIsReal"><title>Love Is Real</title><author ref="#johnMaus">John Maus</author><date when="2007">2007</date></bibl>
+      <bibl xml:id="pitilessCensors"><title>We Must Become the Pitiless Censors of Ourselves</title><author ref="#johnMaus">John Maus</author><date when="2011">2011</date><idno type="wikidata">https://www.wikidata.org/wiki/Q7977682</idno></bibl>
+      <bibl xml:id="rarities"><title>A Collection of Rarities and Previously Unreleased Material</title><author ref="#johnMaus">John Maus</author><date when="2012">2012</date></bibl>
+      <bibl xml:id="screenMemories"><title>Screen Memories</title><author ref="#johnMaus">John Maus</author><date when="2017">2017</date></bibl>
+      <bibl xml:id="addendum"><title>Addendum</title><author ref="#johnMaus">John Maus</author><date when="2018">2018</date></bibl>
+      <bibl xml:id="laterThanYouThink"><title>Later Than You Think</title><author ref="#johnMaus">John Maus</author><date when="2025">2025</date></bibl>
+      <bibl xml:id="fifteenTheses"><title>Fifteen Theses on Contemporary Art</title><author ref="#alainBadiou">Alain Badiou</author></bibl>
+    </listBibl>
+    <list type="concepts">
+      <item xml:id="musician"><term>musician</term></item><item xml:id="singer"><term>singer</term></item><item xml:id="songwriter"><term>songwriter</term></item><item xml:id="composer"><term>composer</term></item><item xml:id="academic"><term>academic</term></item>
+      <item xml:id="synthPop"><term>synth-pop</term><idno type="wikidata">https://www.wikidata.org/wiki/Q753110</idno></item><item xml:id="hypnagogicPop"><term>hypnagogic pop</term></item><item xml:id="postPunk"><term>post-punk</term></item><item xml:id="experimentalPop"><term>experimental pop</term></item><item xml:id="loFi"><term>lo-fi</term></item><item xml:id="politicalPhilosophy"><term>political philosophy</term></item>
+    </list>
+    <listRelation>
+      <relation xml:id="r1" name="bornIn" active="#johnMaus" passive="#austinMinnesota"/>
+      <relation xml:id="r2" name="studiedAt" active="#johnMaus" passive="#calArts"/>
+      <relation xml:id="r3" name="studiedAt" active="#johnMaus" passive="#egs"/>
+      <relation xml:id="r4" name="studiedAt" active="#johnMaus" passive="#universityHawaii"/>
+      <relation xml:id="r5" name="collaboratedWith" active="#johnMaus" passive="#arielPink"/>
+      <relation xml:id="r6" name="performedWith" active="#johnMaus" passive="#pandaBear"/>
+      <relation xml:id="r7" name="pastMemberOf" active="#johnMaus" passive="#hauntedGraffiti"/>
+      <relation xml:id="r8" name="created" active="#johnMaus" passive="#songs"/>
+      <relation xml:id="r9" name="created" active="#johnMaus" passive="#loveIsReal"/>
+      <relation xml:id="r10" name="created" active="#johnMaus" passive="#pitilessCensors"/>
+      <relation xml:id="r11" name="created" active="#johnMaus" passive="#rarities"/>
+      <relation xml:id="r12" name="created" active="#johnMaus" passive="#screenMemories"/>
+      <relation xml:id="r13" name="created" active="#johnMaus" passive="#addendum"/>
+      <relation xml:id="r14" name="created" active="#johnMaus" passive="#laterThanYouThink"/>
+      <relation xml:id="r15" name="releasedBy" active="#pitilessCensors" passive="#ribbonMusic"/>
+      <relation xml:id="r16" name="titleReference" active="#pitilessCensors" passive="#fifteenTheses"/>
+      <relation xml:id="r17" name="authorOf" active="#alainBadiou" passive="#fifteenTheses"/>
+      <relation xml:id="r18" name="hasGenre" active="#johnMaus" passive="#synthPop"/>
+      <relation xml:id="r19" name="hasGenre" active="#johnMaus" passive="#hypnagogicPop"/>
+      <relation xml:id="r20" name="hasGenre" active="#johnMaus" passive="#postPunk"/>
+    </listRelation>
+  </standOff>
+</TEI>

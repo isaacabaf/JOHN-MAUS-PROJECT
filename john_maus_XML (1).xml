@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artistBiography id="john-maus-project">
+  <metadata>
+    <title>John Maus</title>
+    <subtitle>The Music Messenger</subtitle>
+    <creator>Abderrahmane Afrit</creator>
+    <course>Information Science and Cultural Heritage</course>
+    <institution>University of Bologna</institution>
+    <sources>
+      <source id="source-wikipedia" type="wikipedia" url="https://en.wikipedia.org/wiki/John_Maus">John Maus</source>
+      <source id="source-wikidata" type="wikidata" url="https://www.wikidata.org/wiki/Q5980315">John Maus Wikidata Entity</source>
+      <source id="source-album" type="wikipedia" url="https://en.wikipedia.org/wiki/We_Must_Become_the_Pitiless_Censors_of_Ourselves">We Must Become the Pitiless Censors of Ourselves</source>
+    </sources>
+  </metadata>
+
+  <text>
+    <section id="identity" type="biography">
+      <heading>Identity</heading>
+      <paragraph>
+        <person ref="johnMaus">John Maus</person> was born on <date when="1980-02-23">23 February 1980</date> in <place ref="austinMinnesota">Austin, Minnesota</place>. He is an American musician, singer, songwriter, composer and academic.
+      </paragraph>
+    </section>
+
+    <section id="genres" type="music">
+      <heading>Genres</heading>
+      <paragraph>
+        His music is associated with <concept ref="synthPop">synth-pop</concept>, <concept ref="hypnagogicPop">hypnagogic pop</concept>, <concept ref="postPunk">post-punk</concept>, <concept ref="experimentalPop">experimental pop</concept> and <concept ref="loFi">lo-fi</concept>. These genres are important because they connect the artist to underground pop, electronic music and experimental aesthetics.
+      </paragraph>
+    </section>
+
+    <section id="education" type="education">
+      <heading>Education</heading>
+      <paragraph>
+        <person ref="johnMaus">John Maus</person> studied at <organization ref="calArts">California Institute of the Arts</organization>, <organization ref="egs">European Graduate School</organization> and <organization ref="universityHawaii">University of Hawaiʻi</organization>. At <organization ref="calArts">California Institute of the Arts</organization>, he met <person ref="arielPink">Ariel Pink</person>, who became an important artistic connection.
+      </paragraph>
+    </section>
+
+    <section id="related-people" type="network">
+      <heading>Related People</heading>
+      <paragraph>
+        The project records <person ref="arielPink">Ariel Pink</person> as a collaborator, <person ref="pandaBear">Panda Bear</person> as a performance connection, and <person ref="alainBadiou">Alain Badiou</person> as a philosophical reference.
+      </paragraph>
+    </section>
+
+    <section id="organizations" type="network">
+      <heading>Organizations</heading>
+      <paragraph>
+        <person ref="johnMaus">John Maus</person> is connected to <organization ref="hauntedGraffiti">Ariel Pink's Haunted Graffiti</organization>, <organization ref="ribbonMusic">Ribbon Music</organization>, <organization ref="upsetTheRhythm">Upset the Rhythm</organization> and <organization ref="young">Young</organization>.
+      </paragraph>
+    </section>
+
+    <section id="albums" type="discography">
+      <heading>Albums</heading>
+      <paragraph>
+        Important albums include <work ref="songs">Songs</work>, <work ref="loveIsReal">Love Is Real</work>, <work ref="pitilessCensors">We Must Become the Pitiless Censors of Ourselves</work>, <work ref="rarities">A Collection of Rarities and Previously Unreleased Material</work>, <work ref="screenMemories">Screen Memories</work>, <work ref="addendum">Addendum</work> and <work ref="laterThanYouThink">Later Than You Think</work>.
+      </paragraph>
+    </section>
+
+    <section id="textual-phenomenon" type="intertextuality">
+      <heading>Textual Phenomenon</heading>
+      <paragraph>
+        The album title <quotation source="fifteenTheses">We Must Become the Pitiless Censors of Ourselves</quotation> is encoded as a textual reference because it recalls <work ref="fifteenTheses">Fifteen Theses on Contemporary Art</work> by <person ref="alainBadiou">Alain Badiou</person>.
+      </paragraph>
+    </section>
+  </text>
+
+  <entities>
+    <people>
+      <person id="johnMaus" wikidata="https://www.wikidata.org/wiki/Q5980315" wikipedia="https://en.wikipedia.org/wiki/John_Maus">John Maus</person>
+      <person id="arielPink" wikidata="https://www.wikidata.org/wiki/Q47839" wikipedia="https://en.wikipedia.org/wiki/Ariel_Pink">Ariel Pink</person>
+      <person id="pandaBear" wikidata="https://www.wikidata.org/wiki/Q1386857" wikipedia="https://en.wikipedia.org/wiki/Panda_Bear_(musician)">Panda Bear</person>
+      <person id="alainBadiou" wikidata="https://www.wikidata.org/wiki/Q29153" wikipedia="https://en.wikipedia.org/wiki/Alain_Badiou">Alain Badiou</person>
+    </people>
+    <places>
+      <place id="austinMinnesota" wikidata="https://www.wikidata.org/wiki/Q486822">Austin, Minnesota</place>
+      <place id="losAngeles" wikidata="https://www.wikidata.org/wiki/Q65">Los Angeles</place>
+    </places>
+    <organizations>
+      <organization id="calArts" wikidata="https://www.wikidata.org/wiki/Q1026924">California Institute of the Arts</organization>
+      <organization id="egs" wikidata="https://www.wikidata.org/wiki/Q1374137">European Graduate School</organization>
+      <organization id="universityHawaii" wikidata="https://www.wikidata.org/wiki/Q687697">University of Hawaiʻi</organization>
+      <organization id="hauntedGraffiti">Ariel Pink's Haunted Graffiti</organization>
+      <organization id="ribbonMusic" wikidata="https://www.wikidata.org/wiki/Q7321144">Ribbon Music</organization>
+      <organization id="upsetTheRhythm">Upset the Rhythm</organization>
+      <organization id="young">Young</organization>
+    </organizations>
+    <works>
+      <work id="songs" year="2006" creator="johnMaus">Songs</work>
+      <work id="loveIsReal" year="2007" creator="johnMaus">Love Is Real</work>
+      <work id="pitilessCensors" year="2011" creator="johnMaus" wikidata="https://www.wikidata.org/wiki/Q7977682">We Must Become the Pitiless Censors of Ourselves</work>
+      <work id="rarities" year="2012" creator="johnMaus">A Collection of Rarities and Previously Unreleased Material</work>
+      <work id="screenMemories" year="2017" creator="johnMaus">Screen Memories</work>
+      <work id="addendum" year="2018" creator="johnMaus">Addendum</work>
+      <work id="laterThanYouThink" year="2025" creator="johnMaus">Later Than You Think</work>
+      <work id="fifteenTheses" creator="alainBadiou">Fifteen Theses on Contemporary Art</work>
+    </works>
+    <concepts>
+      <concept id="synthPop" wikidata="https://www.wikidata.org/wiki/Q753110">synth-pop</concept>
+      <concept id="hypnagogicPop">hypnagogic pop</concept>
+      <concept id="postPunk">post-punk</concept>
+      <concept id="experimentalPop">experimental pop</concept>
+      <concept id="loFi">lo-fi</concept>
+      <concept id="politicalPhilosophy">political philosophy</concept>
+    </concepts>
+  </entities>
+</artistBiography>
