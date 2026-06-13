@@ -5,6 +5,7 @@ This repository contains the final project for the *Information Science and Cult
 ## The Project
 
 The project focuses on **John Maus**, an American musician, composer and academic. The aim is to represent information about John Maus through XML, TEI, RDF and Linked Data methodologies, documenting the entire workflow through a website and related files.
+Web Page :  https://isaacabaf.github.io/JOHN-MAUS-PROJECT/
 
 ## Repository Contents
 
